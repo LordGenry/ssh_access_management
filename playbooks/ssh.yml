@@ -1,0 +1,9 @@
+---
+
+  - hosts: instances
+    gather_facts: False
+    remote_user: hypervisor 
+    become: true
+    become_user: root
+    roles:
+      - ssh-access

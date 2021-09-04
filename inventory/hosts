@@ -1,0 +1,7 @@
+[instances]
+web-frontend-0.peaq.io
+web-backend-0.peaq.io
+
+[instances:vars]
+user_name=cto
+user_des="p.fomenko"
